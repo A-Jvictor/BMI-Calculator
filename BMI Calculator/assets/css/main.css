@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+
+
+*{
+    border: 0%;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(192, 187, 187);
+}
+
+section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+h3 {
+    position: absolute;
+    font-family: 'Inter';
+    margin-top: 670px;
+    padding-left: 40px;
+    color: rgb(228, 223, 223);
+}
+
+.image2 {
+    position: absolute;
+    margin-top: 27px;
+    padding-left: 47px;
+}
+
+.form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;  
+    background-color: white;
+    box-shadow: 0px 60px 50px 20px rgba(0, 0, 0, 0.01);
+    border-radius: 20px;
+    position: static;
+    width: 529px;
+    height: 539px;
+    left: 786px;
+    top: 90px;
+}
+
+.form-input {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    width: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    justify-content: space-between;
+    
+    
+    color: #151515;
+    
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    background: linear-gradient(180deg, #27D3F8 0%, #1FBCDD 100%);
+    border-radius: 4px;
+    color: aliceblue;
+    width: 400px;
+    height: 34px;
+    margin-top: 5px;
+}
+
+p {
+    width: 415px;
+    height: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #B9B9B9;
+}
+
+input {
+    left: 100px;
+}
