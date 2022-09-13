@@ -1,0 +1,6 @@
+Next time, ensure that your code is at the root level of your git repo.
+
+Your code is functional but the UI doesn't look similar to the task given.
+Add proper comments to your javascript code next time.
+
+Well done
